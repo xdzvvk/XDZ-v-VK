@@ -96,10 +96,12 @@ main > div.container {
     background-color: white;
 }
 section {
-
+    flex: 3 0 auto;
+    padding: 0 15px;
 }
 aside {
-
+    flex: 3 0 auto;
+    padding: 0 15px;
 }
 
 

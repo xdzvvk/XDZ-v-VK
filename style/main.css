@@ -79,6 +79,10 @@ header > div.container {
 header ul li{
     margin-right: 20px;
 }
+header a {
+    color: white;
+    text-decoration: none;
+}
 
 /* Основное содержимое */
 main {

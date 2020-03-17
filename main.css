@@ -68,8 +68,9 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-    background-color: navy;
+    background-color: black;
     height: 100px;
+    color: white;
 }
 header > div.container {
     height: 100%;
@@ -84,6 +85,7 @@ main {
     display: flex;
     flex: 1 0 auto;
     background-color: lightgray;
+    color: black;
 }
 main > div.container {
     flex: 1 0 auto;
@@ -100,8 +102,9 @@ aside {
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
-    background-color: navy;
+    background-color: black;
     height: 200px;
+    color: white; 
 }
 footer nav ul {
     margin-right: 30px;

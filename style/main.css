@@ -112,6 +112,10 @@ footer {
     height: 200px;
     color: white;
 }
+footer > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
 footer nav ul {
     margin-right: 30px;
 }

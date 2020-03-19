@@ -89,7 +89,7 @@ header, header ul {
 }
 header {
   height: 30px;
-  background-color: #666;
+  background-color: black;
   padding-left: 25px;
   min-width: 470px;
 }
@@ -107,7 +107,7 @@ header li a {
   text-align: center;
 }
 header ul li { float: none; }
-header li:hover { background-color: #f90; }
+header li:hover { background-color: black; }
 header ul li:hover { background-color: #666; }
 }
 header a {

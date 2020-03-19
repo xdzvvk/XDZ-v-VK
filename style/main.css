@@ -75,8 +75,40 @@ header > div.container {
     height: 100%;
     align-items: center;
 }
-header ul li{
-    margin-right: 20px;
+header ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+header li:hover ul { display: block; }
+header, header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header {
+  height: 30px;
+  background-color: #666;
+  padding-left: 25px;
+  min-width: 470px;
+}
+header li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+header li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+header ul li { float: none; }
+header li:hover { background-color: #f90; }
+header ul li:hover { background-color: #666; }
 }
 header a {
     color: white;

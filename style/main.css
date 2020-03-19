@@ -119,3 +119,7 @@ footer > div.container {
 footer nav ul {
     margin-right: 30px;
 }
+footer a {
+    color: white;
+    text-decoration: none;
+}

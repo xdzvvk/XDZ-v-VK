@@ -81,24 +81,30 @@ header ul {
   position: absolute;
   top: 100%;
 }
-header li:hover ul { display: block; }
-header, header ul {
+#navbar ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-header {
+#navbar {
   height: 30px;
-  background-color: black;
+  background-color: #666;
   padding-left: 25px;
   min-width: 470px;
 }
-header li {
+#navbar li {
   float: left;
   position: relative;
   height: 100%;
 }
-header li a {
+#navbar li a {
   display: block;
   padding: 6px;
   width: 100px;
@@ -106,15 +112,9 @@ header li a {
   text-decoration: none;
   text-align: center;
 }
-header ul li { float: none; }
-header li:hover { background-color: black; }
-header ul li:hover { background-color: #666; }
-}
-header a {
-    color: white;
-    text-decoration: none;
-}
-
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: #f90; }
+#navbar ul li:hover { background-color: #666; }
 
 /* Основное содержимое */
 main {

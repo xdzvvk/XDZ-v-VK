@@ -120,6 +120,9 @@ footer > div.container {
 footer nav ul {
     margin-right: 30px;
 }
+.column1{
+    text-align: right;
+}
 header a,
 footer a {
     color: white;
@@ -128,7 +131,4 @@ footer a {
 header a:hover,
 footer a:hover {
     text-decoration: underline;
-}
-.column1 {
-    text-align: right
 }

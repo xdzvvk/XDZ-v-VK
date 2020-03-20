@@ -78,8 +78,40 @@ header > div.container {
 header ul li {
     margin-right: 20px;
 }
-
-
+nav ul{
+    display: none;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+}
+nav li:hover ul { display: block; }
+nav, nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav {
+    height: 30px;
+    background-color: black;
+    padding-left: 0px;
+    min-width: 110px;
+}
+nav li {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+nav ul li{
+    display: block;
+    padding: 8px;
+    width: 110px;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+}
+nav ul li { float: none; }
+nav li:hover { background-color: red; }
+nav ul li:hover { background-color: black; }
 
 /* Основное содержимое */
 main {

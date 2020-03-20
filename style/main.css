@@ -124,6 +124,7 @@ header a,
 footer a {
     color: white;
     text-decoration: none;
+    float: right;
 }
 header a:hover,
 footer a:hover {

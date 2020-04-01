@@ -1,0 +1,189 @@
+/* Импорт стилей, шрифтов и иконок */
+/* Сброс CSS */
+@import url("https://marksheet.io/css/reset.css");
+
+
+
+
+/* Базовые стили */
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 900px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.button {
+    height: 50px;
+    /*width:100px;*/
+}
+.button {
+    padding: 20px 30px;
+    margin: 10px 20px;
+    text-decoration: none !important;
+}
+.button:hover {
+    background-color: #888;
+}
+.container {
+    padding: 0 15px;
+}
+body {
+    font-size: 14px;
+}
+h1 {
+    font-size: 2.4em;
+    padding: .8em 0 1.2em 0;
+}
+h2 {
+    font-size: 2.2em;
+    padding: .8em 0 1.0em 0;
+}
+h3 {
+    font-size: 2.0em;
+    padding: .8em 0 0.8em 0;
+}
+h4 {
+    font-size: 1.8em;
+    padding: .8em 0 0.6em 0;
+}
+h5 {
+    font-size: 1.6em;
+    padding: .8em 0 0.6em 0;
+}
+h5 {
+    font-size: 1.4em;
+    padding: .8em 0 0.6em 0;
+}
+
+
+/* Предустановки */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.b-right {
+    border-right: 1px solid #e5e5e5;
+}
+
+/* Гибкая верстка */
+img {
+    width: 100%;
+    max-width: 100%;
+}
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.col-4 {
+    flex: 4;
+}
+.col-5 {
+    flex: 5;
+}
+@media(max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
+/* Шапка сайта */
+header {
+    flex: 0 0 auto;
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+header > div.container {
+    height: 100%;
+    align-items: center;
+}
+header ul li {
+    margin-right: 20px;
+}
+header.logo {
+    width: 100px;
+}
+
+/* Основное содержимое */
+main {
+    display: flex;
+    flex: 1 0 auto;
+    background-color: lightgray;
+}
+main > div.container {
+    flex: 1 0 auto;
+    background-color: white;
+}
+main {
+    background-image: url(/afanasyev_official/images/main.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+section {
+    flex: 3 0 auto;
+    padding: 0 15px;
+}
+aside {
+    flex: 3 0 auto;
+    padding: 0 15px;
+}
+aside a {
+    color: black;
+    text-decoration: none;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+aside li {
+    line-height: 1.5em;
+}
+/* Подвал сайта */
+footer {
+    flex: 0 0 auto;
+    background-color: black;
+    height: 300px;
+    color: white;
+}
+footer > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+footer nav ul {
+    margin-right: 30px;
+}
+header a,
+footer a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+footer li {
+    line-height: 2em;
+}

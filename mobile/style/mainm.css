@@ -127,6 +127,45 @@ header ul li {
 header.logo {
     width: 100px;
 }
+.menu{
+    width: 250px;
+    height: 100vh;
+	background: black;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    padding: 15px;
+    font-size: 25px;
+    z-index: 2;
+    color: #fff;
+}
+ 
+.menu li{
+    margin-bottom: 20px;
+}
+.menu li:last-child{
+margin-bottom: 0px;
+}
+.menu span{
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 40px;
+    transform: rotate(45deg);
+    color: #fff;
+}
+.hamb{
+    display: block;
+	font-size: 35px;
+}
+
 
 /* Основное содержимое */
 main {
@@ -161,6 +200,8 @@ aside a:hover {
 aside li {
     line-height: 1.5em;
 }
+
+
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;

@@ -187,3 +187,7 @@ footer a:hover {
 footer li {
     line-height: 2em;
 }
+footer a img {
+    height: 20px;
+    width: 20px;
+}

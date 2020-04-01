@@ -114,7 +114,7 @@ img {
 header {
     flex: 0 0 auto;
     background-color: black;
-    height: 80px;
+    height: 200px;
     color: white;
 }
 header > div.container {
